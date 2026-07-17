@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" fill="none">
+  <defs>
+    <linearGradient id="page" x1="720" y1="0" x2="720" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F12"/>
+      <stop offset="1" stop-color="#090C0F"/>
+    </linearGradient>
+    <linearGradient id="button" x1="1137" y1="271" x2="1249" y2="325" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7AEFBA"/>
+      <stop offset="1" stop-color="#3BD697"/>
+    </linearGradient>
+    <linearGradient id="accentCard" x1="268" y1="359" x2="624" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163026"/>
+      <stop offset="1" stop-color="#11161B"/>
+    </linearGradient>
+    <filter id="shadow" x="220" y="230" width="1100" height="700" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".2"/>
+    </filter>
+    <style>
+      .ui { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, monospace; }
+      .muted { fill: #68747A; }
+      .label { fill: #5B676D; font-size: 9px; font-weight: 700; letter-spacing: 1px; }
+      .small { font-size: 10px; }
+      .body { fill: #AEB9B5; font-size: 12px; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#page)"/>
+  <circle cx="1090" cy="18" r="320" fill="#194D3A" opacity=".07"/>
+
+  <g class="ui">
+    <rect width="224" height="900" fill="#0D1115"/>
+    <path d="M224 0V900" stroke="#1D2429"/>
+
+    <rect x="24" y="24" width="38" height="38" rx="11" fill="#13251F"/>
+    <circle cx="43" cy="43" r="11" stroke="#63E6AD" stroke-width="2"/>
+    <circle cx="43" cy="43" r="6" stroke="#63E6AD" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M43 43 51 36" stroke="#63E6AD" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="43" cy="43" r="2" fill="#77F2BD"/>
+    <text x="73" y="40" fill="#F1F5F3" font-size="17" font-weight="700">DNScope</text>
+    <text x="73" y="54" fill="#59646A" font-size="9" font-weight="600" letter-spacing="1">V0.1.0</text>
+
+    <rect x="16" y="88" width="192" height="40" rx="9" fill="#12201B"/>
+    <rect x="29" y="100" width="15" height="15" rx="3" stroke="#63E6AD" stroke-width="1.5"/>
+    <path d="M36.5 100V115M29 107.5H44" stroke="#63E6AD" stroke-width="1.2" opacity=".45"/>
+    <text x="57" y="113" fill="#DDF9EB" font-size="12" font-weight="600">Overview</text>
+
+    <path d="M29 166a8 8 0 0 1 16 0" stroke="#77848A" stroke-width="1.5"/>
+    <path d="m37 166 4-5" stroke="#77848A" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="57" y="170" fill="#849096" font-size="12" font-weight="550">Benchmark</text>
+
+    <circle cx="35" cy="216" r="6" stroke="#77848A" stroke-width="1.5"/>
+    <path d="m40 221 5 5" stroke="#77848A" stroke-width="1.5"/>
+    <text x="57" y="220" fill="#849096" font-size="12" font-weight="550">DNS records</text>
+
+    <path d="M44 266a8 8 0 1 1-2-5M44 257v5h-5" stroke="#77848A" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="57" y="270" fill="#849096" font-size="12" font-weight="550">History</text>
+
+    <text x="29" y="322" fill="#505A60" font-size="9" font-weight="700" letter-spacing="1.4">SYSTEM</text>
+    <circle cx="36" cy="354" r="6" stroke="#77848A" stroke-width="1.5"/>
+    <circle cx="36" cy="354" r="2" fill="#77848A"/>
+    <text x="57" y="358" fill="#849096" font-size="12" font-weight="550">Test settings</text>
+
+    <rect x="17" y="788" width="190" height="54" rx="10" fill="#101A16" stroke="#203129"/>
+    <circle cx="34" cy="806" r="7" fill="#173126"/>
+    <circle cx="34" cy="806" r="2.5" fill="#63E6AD"/>
+    <text x="49" y="807" fill="#B5C6BE" font-size="10" font-weight="600">Local processing</text>
+    <text x="49" y="823" fill="#637069" font-size="9">No analytics or uploads</text>
+    <text x="53" y="873" fill="#4F595E" font-size="9">Open source   •   MIT License</text>
+
+    <rect x="224" width="1216" height="74" fill="#0B0F12" fill-opacity=".92"/>
+    <path d="M224 74H1440" stroke="#20272C"/>
+    <text x="267" y="31" fill="#E4EAE7" font-size="14" font-weight="650">DNS workspace</text>
+    <text x="267" y="49" fill="#626D73" font-size="10">Measure resolver performance and inspect live DNS records.</text>
+    <rect x="1170" y="21" width="94" height="31" rx="7" fill="#13191D" stroke="#222B30"/>
+    <circle cx="1185" cy="36.5" r="3" fill="#34D399"/>
+    <text x="1195" y="40" fill="#89959A" font-size="9" font-weight="600">Windows</text>
+    <path d="M1284 22V52" stroke="#242C31"/>
+    <text x="1300" y="32" class="label">SYSTEM DNS</text>
+    <text x="1300" y="47" fill="#A4AFB4" font-size="10" class="mono">192.168.1.1</text>
+
+    <text x="267" y="128" fill="#63E6AD" font-size="9" font-weight="700" letter-spacing="1.4">⚡  LIVE DNS TEST</text>
+    <text x="267" y="176" fill="#F2F6F4" font-size="41" font-weight="690" letter-spacing="-1.7">Find the fastest resolver</text>
+    <text x="267" y="220" fill="#F2F6F4" font-size="41" font-weight="690" letter-spacing="-1.7">for your network.</text>
+    <text x="267" y="247" fill="#7A868C" font-size="12">Real queries from your device. No cloud relay, no account, no tracking.</text>
+    <rect x="1174" y="205" width="58" height="27" rx="6" fill="#101A16" stroke="#27362F"/>
+    <text x="1186" y="222" fill="#9CB7AA" font-size="9" class="mono">IPv4 ✓</text>
+    <rect x="1240" y="205" width="58" height="27" rx="6" fill="#101A16" stroke="#27362F"/>
+    <text x="1252" y="222" fill="#9CB7AA" font-size="9" class="mono">IPv6 ✓</text>
+
+    <rect x="267" y="271" width="1031" height="62" rx="12" fill="#12171C" stroke="#2A3339" filter="url(#shadow)"/>
+    <circle cx="294" cy="302" r="9" stroke="#69757B" stroke-width="1.4"/>
+    <path d="M285 302H303M294 293c2 2.3 3 5.3 3 9s-1 6.7-3 9c-2-2.3-3-5.3-3-9s1-6.7 3-9Z" stroke="#69757B" stroke-width="1"/>
+    <text x="315" y="292" class="label">DOMAIN TO TEST</text>
+    <text x="315" y="313" fill="#E2E9E6" font-size="14" font-weight="600">github.com</text>
+    <path d="M698 286V318" stroke="#283137"/>
+    <text x="720" y="293" class="label">RECORD</text>
+    <text x="720" y="313" fill="#C8D1CE" font-size="11" font-weight="600">A · IPv4</text>
+    <path d="m799 302 4 4 4-4" stroke="#6C777D" stroke-width="1.3"/>
+    <rect x="830" y="281" width="154" height="42" rx="8" fill="#161C21" stroke="#283137"/>
+    <text x="849" y="307" fill="#A7B2B7" font-size="10" font-weight="600">▣  6 resolvers</text>
+    <path d="m957 300 4 4 4-4" stroke="#6C777D" stroke-width="1.3"/>
+    <rect x="994" y="281" width="294" height="42" rx="8" fill="url(#button)"/>
+    <path d="M1125 301a8 8 0 1 0 2 5M1125 296v5h5" stroke="#0A2117" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="1150" y="307" fill="#07120D" font-size="11" font-weight="700">Run test</text>
+
+    <rect x="267" y="359" width="347" height="88" rx="10" fill="url(#accentCard)" stroke="#294337"/>
+    <rect x="284" y="384" width="36" height="36" rx="9" fill="#173126"/>
+    <path d="m304 389-10 14h8l-2 12 10-14h-8l2-12Z" stroke="#63E6AD" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="334" y="385" class="label">FASTEST RESOLVER</text>
+    <text x="334" y="406" fill="#CAD4D0" font-size="12" font-weight="650">AliDNS</text>
+    <text x="334" y="423" fill="#637068" font-size="9">223.5.5.5</text>
+    <text x="524" y="409" fill="#63E6AD" font-size="14" font-weight="650" class="mono">12.4 ms</text>
+
+    <rect x="626" y="359" width="329" height="88" rx="10" fill="#11161B" stroke="#20282D"/>
+    <rect x="644" y="384" width="36" height="36" rx="9" fill="#191F24"/>
+    <path d="M653 411a9 9 0 0 1 18 0M662 411l4-5" stroke="#869299" stroke-width="1.5"/>
+    <text x="694" y="385" class="label">AVERAGE RESPONSE</text>
+    <text x="694" y="407" fill="#CAD4D0" font-size="12" font-weight="650">30.7 ms</text>
+    <text x="694" y="424" fill="#5E696F" font-size="9">Across responding resolvers</text>
+
+    <rect x="967" y="359" width="331" height="88" rx="10" fill="#11161B" stroke="#20282D"/>
+    <rect x="985" y="384" width="36" height="36" rx="9" fill="#191F24"/>
+    <path d="m994 402 5 5 10-11" stroke="#869299" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="1035" y="385" class="label">SUCCESS RATE</text>
+    <text x="1035" y="407" fill="#CAD4D0" font-size="12" font-weight="650">100%</text>
+    <text x="1035" y="424" fill="#5E696F" font-size="9">6 of 6 resolvers online</text>
+
+    <rect x="267" y="475" width="1031" height="388" rx="11" fill="#101519" stroke="#20282D"/>
+    <text x="289" y="503" fill="#63E6AD" font-size="8" font-weight="700" letter-spacing="1.2">PERFORMANCE</text>
+    <text x="289" y="526" fill="#D3DBD8" font-size="14" font-weight="650">Resolver benchmark</text>
+    <text x="289" y="544" fill="#68747A" font-size="9">github.com · 3 queries per resolver</text>
+    <rect x="1186" y="505" width="90" height="30" rx="7" fill="#151B20" stroke="#293239"/>
+    <text x="1202" y="524" fill="#8B979C" font-size="9">↓  Export JSON</text>
+    <path d="M267 562H1298" stroke="#20282D"/>
+    <rect x="268" y="563" width="1029" height="38" fill="#0D1114" fill-opacity=".52"/>
+    <text x="289" y="586" class="label">RESOLVER</text>
+    <text x="580" y="586" class="label">PROTOCOL</text>
+    <text x="704" y="586" class="label">RESPONSE</text>
+    <text x="832" y="586" class="label">RELATIVE LATENCY</text>
+    <text x="1100" y="586" class="label">SUCCESS</text>
+    <text x="1201" y="586" class="label">STATUS</text>
+
+    <g>
+      <rect x="268" y="601" width="1029" height="64" fill="#14201A" fill-opacity=".25"/>
+      <rect x="289" y="617" width="32" height="32" rx="8" fill="#17251F" stroke="#31423A"/>
+      <text x="298" y="637" fill="#91D8B8" font-size="9" font-weight="700">AD</text>
+      <text x="334" y="628" class="body" font-weight="600">AliDNS</text>
+      <text x="334" y="644" fill="#59646A" font-size="8" class="mono">223.5.5.5</text>
+      <rect x="580" y="622" width="51" height="22" rx="5" fill="#151B20" stroke="#293238"/>
+      <text x="589" y="636" fill="#7C888D" font-size="8" class="mono">UDP/53</text>
+      <text x="704" y="637" fill="#63E6AD" font-size="10" class="mono">12.4 ms</text>
+      <rect x="832" y="631" width="204" height="4" rx="2" fill="#1C2429"/>
+      <rect x="832" y="631" width="49" height="4" rx="2" fill="#63E6AD"/>
+      <text x="1100" y="637" fill="#8E9A9F" font-size="9">100%</text>
+      <rect x="1198" y="621" width="62" height="24" rx="12" fill="#14251E"/>
+      <circle cx="1210" cy="633" r="2.5" fill="#63E6AD"/>
+      <text x="1218" y="637" fill="#75DBAA" font-size="8">online</text>
+    </g>
+
+    <g transform="translate(0 64)">
+      <rect x="289" y="617" width="32" height="32" rx="8" fill="#171D2B" stroke="#303B53"/>
+      <text x="298" y="637" fill="#AABFFF" font-size="9" font-weight="700">SD</text>
+      <text x="334" y="628" class="body" font-weight="600">System DNS</text>
+      <text x="334" y="644" fill="#59646A" font-size="8" class="mono">192.168.1.1</text>
+      <rect x="580" y="622" width="51" height="22" rx="5" fill="#151B20" stroke="#293238"/>
+      <text x="589" y="636" fill="#7C888D" font-size="8" class="mono">UDP/53</text>
+      <text x="704" y="637" fill="#63E6AD" font-size="10" class="mono">18.6 ms</text>
+      <rect x="832" y="631" width="204" height="4" rx="2" fill="#1C2429"/>
+      <rect x="832" y="631" width="73" height="4" rx="2" fill="#63E6AD"/>
+      <text x="1100" y="637" fill="#8E9A9F" font-size="9">100%</text>
+      <rect x="1198" y="621" width="62" height="24" rx="12" fill="#14251E"/>
+      <circle cx="1210" cy="633" r="2.5" fill="#63E6AD"/>
+      <text x="1218" y="637" fill="#75DBAA" font-size="8">online</text>
+    </g>
+
+    <g transform="translate(0 128)">
+      <rect x="289" y="617" width="32" height="32" rx="8" fill="#211A2D" stroke="#403657"/>
+      <text x="298" y="637" fill="#C6ADFF" font-size="9" font-weight="700">DP</text>
+      <text x="334" y="628" class="body" font-weight="600">DNSPod</text>
+      <text x="334" y="644" fill="#59646A" font-size="8" class="mono">119.29.29.29</text>
+      <rect x="580" y="622" width="51" height="22" rx="5" fill="#151B20" stroke="#293238"/>
+      <text x="589" y="636" fill="#7C888D" font-size="8" class="mono">UDP/53</text>
+      <text x="704" y="637" fill="#63E6AD" font-size="10" class="mono">15.8 ms</text>
+      <rect x="832" y="631" width="204" height="4" rx="2" fill="#1C2429"/>
+      <rect x="832" y="631" width="62" height="4" rx="2" fill="#63E6AD"/>
+      <text x="1100" y="637" fill="#8E9A9F" font-size="9">100%</text>
+      <rect x="1198" y="621" width="62" height="24" rx="12" fill="#14251E"/>
+      <circle cx="1210" cy="633" r="2.5" fill="#63E6AD"/>
+      <text x="1218" y="637" fill="#75DBAA" font-size="8">online</text>
+    </g>
+
+    <g transform="translate(0 192)">
+      <rect x="289" y="617" width="32" height="32" rx="8" fill="#152426" stroke="#2B4449"/>
+      <text x="298" y="637" fill="#9ED9E6" font-size="9" font-weight="700">CF</text>
+      <text x="334" y="628" class="body" font-weight="600">Cloudflare</text>
+      <text x="334" y="644" fill="#59646A" font-size="8" class="mono">1.1.1.1</text>
+      <rect x="580" y="622" width="51" height="22" rx="5" fill="#151B20" stroke="#293238"/>
+      <text x="589" y="636" fill="#7C888D" font-size="8" class="mono">UDP/53</text>
+      <text x="704" y="637" fill="#BCC6C2" font-size="10" class="mono">38.2 ms</text>
+      <rect x="832" y="631" width="204" height="4" rx="2" fill="#1C2429"/>
+      <rect x="832" y="631" width="150" height="4" rx="2" fill="#74838A"/>
+      <text x="1100" y="637" fill="#8E9A9F" font-size="9">100%</text>
+      <rect x="1198" y="621" width="62" height="24" rx="12" fill="#14251E"/>
+      <circle cx="1210" cy="633" r="2.5" fill="#63E6AD"/>
+      <text x="1218" y="637" fill="#75DBAA" font-size="8">online</text>
+    </g>
+  </g>
+</svg>
